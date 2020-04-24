@@ -1,0 +1,12 @@
+{
+  "httpMethod": "POST",
+  "path": "/slack-endpoint",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "hoge.com"
+  },
+  "body": "{\"token\":\"XXYYZZ\", \"team_id\":\"TXXXXXXXX\", \"api_app_id\": \"AXXXXXXXXX\", \"event\": {\"type\": \"message\", \"channel\": \"CXXXXXXXX\", \"user\": \"UXXXXXXX1\", \"text\": \"mornig contains.\", \"ts\": \"1355517523.000005\", \"event_ts\": \"1234567890.123456\", \"channel_type\": \"channel\"},\"type\": \"event_callback\",\"authed_users\": [\"UXXXXXXX1\",\"UXXXXXXX2\"], \"event_id\": \"Ev08MFMKH6\",\"event_time\": 1234567890}",
+  "stageVariables": {
+    "stage": "hoge"
+  }
+}

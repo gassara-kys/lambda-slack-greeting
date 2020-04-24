@@ -1,0 +1,12 @@
+{
+  "httpMethod": "POST",
+  "path": "/slack-endpoint",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "hoge.com"
+  },
+  "body": "{\"token\": \"XXYYZZ\", \"challenge\": \"XXYYZZ\", \"type\": \"url_verification\"}",
+  "stageVariables": {
+    "stage": "hoge"
+  }
+}

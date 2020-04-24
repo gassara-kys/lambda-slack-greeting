@@ -1,0 +1,5 @@
+export SLACK_TOKEN="XXYYZZ"
+export SLACK_V_TOKEN="XXYYZZ"
+export SLACK_BOT_NAME="MY_BOT"
+export SLACK_CHANNEL_ID="CXXXXXXXX"
+export SLACK_GREETING_MAP="mornig:sunny,hi:sunny,hello:sunny,night:moon,bye:moon"
